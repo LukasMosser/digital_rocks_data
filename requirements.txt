@@ -1,1 +1,5 @@
 pytest
+xarray
+tqdm
+requests
+matplotlib
