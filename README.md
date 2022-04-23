@@ -1,2 +1,2 @@
-# digital_rocks_data
+# Digital Rocks Data
 A repository of digital rocks datasets
