@@ -73,7 +73,10 @@ docs/_build/
 
 # PyBuilder
 target/
-
+.ipynb_checkpoints 
+docs/userguide
+_version.py
+.vscode
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -127,3 +130,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.vscode/
+
+.ipynb_checkpoints 
+docs/userguide
+_version.py
+.vscode
