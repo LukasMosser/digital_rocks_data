@@ -30,6 +30,27 @@ Examples highlighting the use of the drd library and the individual datasets.
    :hidden:
 
    /auto_examples/plot_eleven_sandstones_dataset_example
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example shows how we can load an image from the Imperial College London Sandstones &amp; Carbo...">
+
+.. only:: html
+
+ .. figure:: /auto_examples/images/thumb/sphx_glr_plot_icl_sandstones_carbonates_2009_example_thumb.png
+     :alt: Imperial College London Sandstones & Carbonates 2009 Dataset
+
+     :ref:`sphx_glr_auto_examples_plot_icl_sandstones_carbonates_2009_example.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /auto_examples/plot_icl_sandstones_carbonates_2009_example
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>

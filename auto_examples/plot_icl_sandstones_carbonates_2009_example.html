@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imperial College London Sandstones &amp; Carbonates 2009 Dataset &mdash; Digital Rock Data 0.0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-binder.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-dataframe.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-rendered-html.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Elven Sandstones Plotting Example" href="plot_eleven_sandstones_dataset_example.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Digital Rock Data
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../_autosummary/drd.html">drd</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Example galleries</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Digital Rock Data Gallery</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="plot_eleven_sandstones_dataset_example.html">Elven Sandstones Plotting Example</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Imperial College London Sandstones &amp; Carbonates 2009 Dataset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#loading-the-image">Loading the Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plotting-the-image-data-using-xarray">Plotting the Image Data using xarray</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Digital Rock Data</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Digital Rock Data Gallery</a> &raquo;</li>
+      <li>Imperial College London Sandstones &amp; Carbonates 2009 Dataset</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/auto_examples/plot_icl_sandstones_carbonates_2009_example.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="sphx-glr-download-link-note admonition note">
+<p class="admonition-title">Note</p>
+<p>Click <a class="reference internal" href="#sphx-glr-download-auto-examples-plot-icl-sandstones-carbonates-2009-example-py"><span class="std std-ref">here</span></a>
+to download the full example code</p>
+</div>
+<section class="sphx-glr-example-title" id="imperial-college-london-sandstones-carbonates-2009-dataset">
+<span id="sphx-glr-auto-examples-plot-icl-sandstones-carbonates-2009-example-py"></span><h1>Imperial College London Sandstones &amp; Carbonates 2009 Dataset<a class="headerlink" href="#imperial-college-london-sandstones-carbonates-2009-dataset" title="Permalink to this headline"></a></h1>
+<p>This example shows how we can load an image from the Imperial College London Sandstones &amp; Carbonates 2009 dataset.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">drd.datasets.icl_sandstones_carbonates_2009</span> <span class="kn">import</span> <span class="n">load_icl_sandstones_carbonates_2009</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</pre></div>
+</div>
+<section id="loading-the-image">
+<h2>Loading the Image<a class="headerlink" href="#loading-the-image" title="Permalink to this headline"></a></h2>
+<p>We will use one of the utility functions called <cite>load_icl_sandstones_carbonates_2009</cite> to generate an xarray DataArray
+which already contains all the spatial axis information and scaling preconfigured.</p>
+<p>This way we will have a proper definition of the image data in terms of a spatial coordinate system.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">img</span> <span class="o">=</span> <span class="n">load_icl_sandstones_carbonates_2009</span><span class="p">(</span><span class="s2">&quot;Berea&quot;</span><span class="p">)</span>
+
+<span class="c1"># This is the end of the &#39;code block&#39; (if using an above IDE). All code within</span>
+<span class="c1"># this block can be easily executed all at once.</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Using downloaded and verified file: /home/runner/drd_data/Berea.7z
+</pre></div>
+</div>
+</section>
+<section id="plotting-the-image-data-using-xarray">
+<h2>Plotting the Image Data using xarray<a class="headerlink" href="#plotting-the-image-data-using-xarray" title="Permalink to this headline"></a></h2>
+<p>We will use xarray’s ability to summarize or select our data to plot an average over the z dimension.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">img</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="s1">&#39;z&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<img src="../_images/sphx_glr_plot_icl_sandstones_carbonates_2009_example_001.png" srcset="../_images/sphx_glr_plot_icl_sandstones_carbonates_2009_example_001.png" alt="plot icl sandstones carbonates 2009 example" class = "sphx-glr-single-img"/><p>We can clearly see how we first downloaded the image data from the web and subsequently compute an average over the micro-ct image dataset.</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  0.901 seconds)</p>
+<div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-plot-icl-sandstones-carbonates-2009-example-py">
+<div class="sphx-glr-download sphx-glr-download-python docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/98308c638a1861165e8c879cbb7d9178/plot_icl_sandstones_carbonates_2009_example.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_icl_sandstones_carbonates_2009_example.py</span></code></a></p>
+</div>
+<div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/c943fc691bab054d2aeb84a572b9adac/plot_icl_sandstones_carbonates_2009_example.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_icl_sandstones_carbonates_2009_example.ipynb</span></code></a></p>
+</div>
+</div>
+<p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="plot_eleven_sandstones_dataset_example.html" class="btn btn-neutral float-left" title="Elven Sandstones Plotting Example" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Lukas Mosser.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
