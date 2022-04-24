@@ -5,8 +5,8 @@
 
 Computation times
 =================
-**00:19.907** total execution time for **auto_examples** files:
+**00:20.073** total execution time for **auto_examples** files:
 
 +-------------------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_eleven_sandstones_dataset_example.py` (``plot_eleven_sandstones_dataset_example.py``) | 00:19.907 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_eleven_sandstones_dataset_example.py` (``plot_eleven_sandstones_dataset_example.py``) | 00:20.073 | 0.0 MB |
 +-------------------------------------------------------------------------------------------------------------------------+-----------+--------+
