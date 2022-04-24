@@ -248,7 +248,7 @@ def _extract_gdrive_api_response(response, chunk_size: int = 32 * 1024) -> Tuple
     return api_response, content
 
 
-def download_file_from_google_drive(file_id: str, root: str, filename: Optional[str] = None, md5: Optional[str] = None):
+def download_file_from_google_drive(file_id: str, root: str, filename: Optional[str] = None, md5: Optional[str] = None, save_content: bool = True):
     """Download a Google Drive file from  and place it in root.
     Args:
         file_id (str): id of file to be downloaded
@@ -293,8 +293,10 @@ def download_file_from_google_drive(file_id: str, root: str, filename: Optional[
                 f"and can only be overcome by trying again later."
             )
 
-        _save_response_content(content, fpath)
-
+        if save_content:
+            _save_response_content(content, fpath)
+            
+    return api_response
 
 def _extract_tar(from_path: str, to_path: str, compression: Optional[str]) -> None:
     with tarfile.open(from_path, f"r:{compression[1:]}" if compression else "r") as tar:

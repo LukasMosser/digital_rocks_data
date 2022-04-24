@@ -7,7 +7,6 @@ from drd.datasets.download_utils import download_url, get_data_home
 from drd.datasets.utils import load_numpy_from_raw, create_xarray_from_numpy
 
 DATASET_METADATA = {
-    "project_archive_url": "https://www.digitalrocksportal.org/media/projects/317/archive.zip",
     "Berea": {
         "Berea_2d25um_grayscale.raw": {
             "url": "https://www.digitalrocksportal.org/projects/317/images/223451/download/",

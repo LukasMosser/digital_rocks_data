@@ -1,18 +1,19 @@
 import pytest
 import matplotlib.pyplot as plt
-
+import requests
 from drd.datasets import load_eleven_sandstones
 from drd.datasets import load_icl_microct_sandstones_carbonates_2015
+from drd.datasets.eleven_sandstones import DATASET_METADATA as ELEVEN_SANDSTONES_METADATA
+from drd.datasets.icl_microct_sandstones_carbonates_2015 import DATASET_METADATA as ICL_2015_METADATA
+from drd.datasets.download_utils import download_file_from_google_drive, get_data_home
+
+eleven_sandstones_urls = [(metadata['url'], filename) for _, dataset in ELEVEN_SANDSTONES_METADATA.items()  for filename, metadata in dataset.items() ]
+@pytest.mark.parametrize("url,filename", eleven_sandstones_urls)
+def test_eleven_sandstones_file_availability(url, filename):
+    assert(requests.head(url).status_code==302)
 
 
-def test_eleven_sandstones_dataset():
-    img = load_eleven_sandstones("Berea", "Berea_2d25um_grayscale.raw")
-
-    assert(True, True)
-
-@pytest.mark.parametrize("dataset", ["Doddington", "Estaillades", "Ketton", "Bentheimer"])
-def test_icl_microct_sandstones_carbonates_2015(dataset: str):
-
-    img = load_icl_microct_sandstones_carbonates_2015(dataset=dataset)
-    
-    assert(True, True)
+def test_icl_microct_sandstones_carbonates_2015_file_availability():
+    download_root = get_data_home()
+    api_response = download_file_from_google_drive(ICL_2015_METADATA['drive_id'], root=download_root, filename=ICL_2015_METADATA['filename'], save_content=False)
+    assert(api_response is None)
