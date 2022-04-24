@@ -13,9 +13,12 @@ def load_numpy_from_raw(file_path: Path, image_type: npt.DTypeLike, height: int,
 
 def create_xarray_from_numpy(img, name, voxel_lengths, length_unit, height, width, number_of_slices) -> xr.DataArray:
     
-    x_axis = [i*voxel_lengths[0]*length_unit for i in range(height)]
-    y_axis = [i*voxel_lengths[1]*length_unit for i in range(width)]
-    z_axis = [i*voxel_lengths[2]*length_unit for i in range(number_of_slices)]
+    if not isinstance(length_unit, list):
+        length_unit = [length_unit]*3
+
+    x_axis = [i*voxel_lengths[0]*length_unit[0] for i in range(height)]
+    y_axis = [i*voxel_lengths[1]*length_unit[1] for i in range(width)]
+    z_axis = [i*voxel_lengths[2]*length_unit[2] for i in range(number_of_slices)]
 
     da = xr.DataArray(
         img,

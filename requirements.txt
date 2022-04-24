@@ -7,3 +7,4 @@ Sphinx
 sphinx-gallery
 sphinx_rtd_theme
 flake8
+py7zr
