@@ -25,3 +25,12 @@ jobs:
     - name: Run test suite
       run: |
         pytest
+    - name: Create documentation
+      run: |
+        cd docs
+        make html
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4.2.3
+      with:
+        branch: gh-pages
+        folder: docs/_build/html
