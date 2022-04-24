@@ -1,6 +1,18 @@
 # Digital Rocks Data
 ### Make downloading and using Digital Rock Data great again!  
-[![Run tests](https://github.com/lukasmosser/digital_rocks_data/actions/workflows/build.yaml/badge.svg)](https://github.com/lukasmosser/digital_rocks_data/actions/workflows/build.yaml)## Contributing [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/lukasmosser/digital_rocks_data/issues)[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://lukasmosser.github.io/digital_rocks_data/index.html)
+[![Run tests](https://github.com/lukasmosser/digital_rocks_data/actions/workflows/build.yaml/badge.svg)](https://github.com/lukasmosser/digital_rocks_data/actions/workflows/build.yaml)[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/lukasmosser/digital_rocks_data/issues)[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://lukasmosser.github.io/digital_rocks_data/index.html)
+
+## Quick Start
+### Installation from Github using pip
+```bash
+pip install git+https://github.com/lukasmosser/digital_rocks_data.git
+```
+### Loading an Image Dataset
+```python
+from drd.datasets.eleven_sandstones import load_eleven_sandstones
+img = load_eleven_sandstones("Berea", "Berea_2d25um_grayscale.raw") # xarray DataArray with Image Data
+```
+
 ## About
 
 Digital Rock Images are three-dimensional datasets of rocks and other porous media.  
