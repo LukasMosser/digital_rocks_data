@@ -1,0 +1,12 @@
+
+:orphan:
+
+.. _sphx_glr_auto_examples_sg_execution_times:
+
+Computation times
+=================
+**00:20.358** total execution time for **auto_examples** files:
+
++-------------------------------------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_plot_eleven_sandstones_dataset_example.py` (``plot_eleven_sandstones_dataset_example.py``) | 00:20.358 | 0.0 MB |
++-------------------------------------------------------------------------------------------------------------------------+-----------+--------+
