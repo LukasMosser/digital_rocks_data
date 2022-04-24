@@ -34,6 +34,4 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4.3.0
       with:
         folder: ./docs/build/html
-        repository-name: digital_rocks_data
         branch: gh-pages
-        target-folder: docs
