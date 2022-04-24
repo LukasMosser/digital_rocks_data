@@ -1,6 +1,6 @@
 # Digital Rocks Data
 ### Make downloading and using Digital Rock Data great again!  
-[![Run tests](https://github.com/lukasmosser/digital_rock_data/actions/workflows/build.yaml/badge.svg)](https://github.com/lukasmosser/digital_rock_data/actions/workflows/build.yaml)
+[![Run tests](https://github.com/lukasmosser/digital_rocks_data/actions/workflows/build.yaml/badge.svg)](https://github.com/lukasmosser/digital_rocks_data/actions/workflows/build.yaml)
 ## About
 
 Digital Rock Images are three-dimensional datasets of rocks and other porous media.  
