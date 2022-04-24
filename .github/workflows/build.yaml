@@ -29,8 +29,12 @@ jobs:
       run: |
         cd docs
         make html
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.2.3
-      with:
-        branch: gh-pages
-        folder: ../build/html
+        cd ../
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          folder: ./docs/build/html
+          repository-name: gh-pages
+          branch: master
+          target-folder: docs
+          clean: true
