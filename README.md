@@ -32,3 +32,7 @@ Imperial College London:
 Authors are encouraged to contribute their own datasets using the correct metadata.  
 See `drd/datasets/eleven_sandstones.py` for an example implementation.  
 Please add corresponding tests and an example to your pull request.  
+
+## Creation
+
+This package was created during the Transform 22 software sprint.
