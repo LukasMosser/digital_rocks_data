@@ -10,7 +10,12 @@ pip install git+https://github.com/lukasmosser/digital_rocks_data.git
 ### Loading an Image Dataset
 ```python
 from drd.datasets.eleven_sandstones import load_eleven_sandstones
-img = load_eleven_sandstones("Berea", "Berea_2d25um_grayscale.raw") # xarray DataArray with Image Data
+
+# xarray DataArray with image data
+img = load_eleven_sandstones("Berea", "Berea_2d25um_grayscale.raw") 
+
+# Plot average over z dimension
+img.mean(dim='z').plot()
 ```
 
 ## About
