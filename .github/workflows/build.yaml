@@ -31,7 +31,7 @@ jobs:
         make html
         cd ../
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action
+      uses: JamesIves/github-pages-deploy-action@v4.3.0
       with:
         folder: ./docs/build/html
         repository-name: gh-pages
