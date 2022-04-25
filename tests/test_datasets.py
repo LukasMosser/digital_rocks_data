@@ -1,8 +1,6 @@
 import pytest
 import matplotlib.pyplot as plt
 import requests
-from drd.datasets import load_eleven_sandstones
-from drd.datasets import load_icl_microct_sandstones_carbonates_2015
 from drd.datasets import load_icl_sandstones_carbonates_2009
 from drd.datasets.eleven_sandstones import DATASET_METADATA as ELEVEN_SANDSTONES_METADATA
 from drd.datasets.icl_microct_sandstones_carbonates_2015 import DATASET_METADATA as ICL_2015_METADATA
