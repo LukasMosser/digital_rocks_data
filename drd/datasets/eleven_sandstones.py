@@ -36,6 +36,326 @@ DATASET_METADATA = {
             "byte_order": "little-endian",
             "image_type": np.uint8
         }   
+    },
+    "BanderaBrown": {
+        "BanderaBrown_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223448/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BanderaBrown_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223454/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BanderaBrown_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223455/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "BanderaGray": {
+        "BanderaGray_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223459/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BanderaGray_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223457/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BanderaGray_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223458/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "Bentheimer": {
+        "Bentheimer_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223461/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "Bentheimer_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223462/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "Bentheimer_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223463/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "BSG": {
+        "BSG_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223464/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BSG_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223465/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BSG_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223466/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "BUG": {
+        "BUG_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223467/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BUG_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223468/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BUG_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223469/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "BB": {
+        "BB_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223470/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BB_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223471/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "BB_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223472/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "CastleGate": {
+        "CastleGate_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223473/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "CastleGate_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223474/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "CastleGate_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223475/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "Kirby": {
+        "Kirby_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223476/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "Kirby_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223477/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "Kirby_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223478/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "Leopard": {
+        "Leopard_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223479/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "Leopard_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223480/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "Leopard_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223481/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
+    },
+    "Parker": {
+        "Parker_2d25um_grayscale.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223482/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "Parker_2d25um_grayscale_filtered.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223483/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit":  1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        },
+        "Parker_2d25um_binary.raw": {
+            "url": "https://www.digitalrocksportal.org/projects/317/images/223484/download/",
+            "voxel_length": [2.25, 2.25, 2.25],
+            "metric_voxel_length_unit": 1e-6,
+            "width": 1000, 
+            "height": 1000, 
+            "number_of_slices": 1000,
+            "byte_order": "little-endian",
+            "image_type": np.uint8
+        }   
     }
 }
 

@@ -41,6 +41,16 @@ Each dataset is linked in this library i.e. no hosting is done by the library it
 [Digital Rocks Portal](https://www.digitalrocksportal.org/):
 - [Eleven Sandstones Dataset](https://www.digitalrocksportal.org/projects/317)
     - Berea
+    - Bandera Brown
+    - Bandera Gray
+    - Bentheimer
+    - Berea Sister Gray
+    - Berea Upper Gray
+    - Buff Berea
+    - Castle Gate
+    - Kirby
+    - Leopard
+    - Parker
 
 [Imperial College London](https://www.imperial.ac.uk/earth-science/research/research-groups/pore-scale-modelling/micro-ct-images-and-networks/):
 - MicroCT Images of Sandstones and Carbonates 2015
