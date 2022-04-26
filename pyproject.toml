@@ -1,4 +1,3 @@
-[build-system]
 requires = [
     "setuptools>=48",
     "setuptools_scm[toml] >= 4, <6",
@@ -9,4 +8,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
 write_to = "drd/_version.py"
-git_describe_command = "git describe --dirty --tags --long --match v* --first-parent"
+version_scheme = "release-branch-semver"
+
+[build-system]
+requires = ["setuptools>=48", "wheel", "setuptools_scm>=6.2"]
