@@ -1,5 +1,5 @@
 """
-Elven Sandstones Plotting Example
+Eleven Sandstones Plotting Example
 =========================
 
 This example shows how we can load an image from the eleven sandstones dataset.
