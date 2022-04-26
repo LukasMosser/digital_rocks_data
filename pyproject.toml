@@ -6,9 +6,5 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools_scm]
-write_to = "drd/_version.py"
-version_scheme = "release-branch-semver"
-
 [build-system]
 requires = ["setuptools>=48", "wheel", "setuptools_scm>=6.2"]
