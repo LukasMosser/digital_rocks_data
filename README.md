@@ -5,8 +5,9 @@
 ## Quick Start
 ### Installation from Github using pip
 ```bash
-pip install git+https://github.com/lukasmosser/digital_rocks_data.git
+pip install drd
 ```
+
 ### Loading an Image Dataset
 ```python
 from drd.datasets.eleven_sandstones import load_eleven_sandstones
