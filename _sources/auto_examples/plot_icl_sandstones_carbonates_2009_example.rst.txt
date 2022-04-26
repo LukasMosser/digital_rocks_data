@@ -103,7 +103,7 @@ We can clearly see how we first downloaded the image data from the web and subse
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.946 seconds)
+   **Total running time of the script:** ( 0 minutes  0.941 seconds)
 
 
 .. _sphx_glr_download_auto_examples_plot_icl_sandstones_carbonates_2009_example.py:
