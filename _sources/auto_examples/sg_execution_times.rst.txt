@@ -5,10 +5,10 @@
 
 Computation times
 =================
-**00:21.341** total execution time for **auto_examples** files:
+**00:21.032** total execution time for **auto_examples** files:
 
 +-----------------------------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_eleven_sandstones_dataset_example.py` (``plot_eleven_sandstones_dataset_example.py``)           | 00:20.399 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_eleven_sandstones_dataset_example.py` (``plot_eleven_sandstones_dataset_example.py``)           | 00:20.144 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_icl_sandstones_carbonates_2009_example.py` (``plot_icl_sandstones_carbonates_2009_example.py``) | 00:00.941 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_icl_sandstones_carbonates_2009_example.py` (``plot_icl_sandstones_carbonates_2009_example.py``) | 00:00.888 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------------------------+-----------+--------+
